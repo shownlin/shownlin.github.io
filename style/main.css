@@ -1,0 +1,114 @@
+﻿@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+/* To ensure the height of the header will fit the content when the screen is small */
+@media screen and (max-width: 980px) {
+  html, body, header {
+    height: auto;
+  }
+}
+
+header {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#header-glass {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#basic-info {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.paper {
+  max-width: 640px;
+  margin: auto;
+}
+
+.paper img {
+  width: 100%;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+#researches {
+  background-color: #D7D7D7;
+}
+
+#publications {
+  background-color: #ECECEC;
+}
+
+#projects {
+  background-color: #ECECEC;
+}
+
+#skills {
+  background-color: #D7D7D7;
+}
+
+#interests {
+  background-color: #ECECEC;
+}
+
+#ibeacon-logo {
+  max-width: 7rem;
+}
+
+#ibeacon-name {
+  font-size: 2rem;
+  color: #0066FF;
+}
+
+#ibeacon-name strong {
+  color: #0044BB;
+}
+
+#OpenISDM-name {
+  font-size: 2rem;
+  color: #FF3333;
+}
+
+#OpenISDM-name strong {
+  color: #CC0000;
+}
+
+#OpenISDM-logo {
+  max-width: 15rem;
+}
+
+#interests img {
+  width: 50%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .btn {
+  margin: 0.25rem;
+}
+
+.progress {
+  width: 100%;
+}
+
+.prog-lang {
+  font-size: 1.5rem;
+}
