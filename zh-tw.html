@@ -44,7 +44,7 @@
     <img src="images/background.jpg" style="display:none;" />
 
     <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
       <!-- toggler button (only shown when the screen is small) -->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -117,7 +117,7 @@
     <!-- Researches -->
     <section id="researches">
 <div class="container text-center">
-    <h1 class="display-4 mb-4 text-center">我在Jane Lab負責的研究題目</h1>
+    <h1 class="display-4 mb-4 text-center">我在Jane Lab負責的研究題目有</h1>
     <h4>藍芽室內定位 和 開放資料之行動災害援助系統</h4>
 </div>
     </section>
@@ -154,7 +154,7 @@
         <h2>合作專案</h2>
         <div class="row mb-5">
 
-          <!-- VanillaDB -->
+          <!-- LBeacon -->
           <div class="col-md-6 my-5 d-flex flex-column justify-content-center">
             <div class="text-center">
               <img id="ibeacon-logo" src="images/ibeacon-logo.svg" alt="ibeacon logo">
@@ -167,7 +167,7 @@
             </div>
           </div>
 
-          <!-- ElaSQL -->
+          <!-- OpenISDM -->
           <div class="col-md-6 my-5 d-flex flex-column justify-content-center">
             <div class="text-center">
               <img id="OpenISDM-logo" src="images/partners-logo-isdm.png" alt="OpenISDM logo">
@@ -183,7 +183,7 @@
 
         <!-- Personal Projects -->
         <h2>個人專案</h2>
-        <div class="card-columns mt-5">
+        <div class="card-deck mt-5">
 
           <!-- empty in c++ -->
           <div class="card">
@@ -193,9 +193,12 @@
               <p class="card-text">待補充 <a href="https://github.com/ptt/pttbbs">PTT BBS</a> .</p>
               <a class="btn btn-success" href="https://github.com/shownlin/c-primer" role="button"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;範例展示</a>
             </div>
+			<div class="card-footer">
+				<small class="text-muted">最後更新於2018/6/15</small>
+			</div>
           </div>
           
-           <!-- empty on python -->
+          <!-- empty on python -->
           <div class="card">
             <div class="card-block">
               <h4 class="card-title">從缺</h4>
@@ -203,6 +206,22 @@
               <p class="card-text">待補充 <a href="https://github.com/ptt/pttbbs">PTT BBS</a> .</p>
               <a class="btn btn-success" href="https://github.com/shownlin/c-primer" role="button"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;範例展示</a>
             </div>
+			<div class="card-footer">
+				<small class="text-muted">最後更新於2018/6/15</small>
+			</div>
+          </div>
+		  
+		  <!-- empty in C# -->
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">從缺</h4>
+              <h5><span class="badge badge-primary">C#</span></h5>
+              <p class="card-text">待補充 <a href="https://github.com/ptt/pttbbs">PTT BBS</a> .</p>
+              <a class="btn btn-success" href="https://github.com/shownlin/c-primer" role="button"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;Repository</a>
+            </div>   
+			<div class="card-footer">
+				<small class="text-muted">最後更新於2018/6/15</small>
+			</div>			
           </div>
           
         </div>
@@ -237,7 +256,7 @@
           <h4 class="col-md-2 prog-lang">C#</h4>
           <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column justify-content-center">
             <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">勉強可以教人 (60%)</div>
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">勉強可以教人 (60%)</div>
             </div>
           </div>
 
@@ -269,7 +288,7 @@
           <h4 class="col-md-2 prog-lang">Javascript</h4>
           <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column justify-content-center">
             <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 27%">新手 (25%)</div>
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 26%">新手 (25%)</div>
             </div>
           </div>
 
@@ -307,44 +326,46 @@
       <div class="container text-center">
         <h1 class="display-4 mb-4 text-center">個人興趣</h1>
         <div class="row mt-5 mb-3">
-          <!-- Cats -->
+          <!-- Eating -->
           <div class="col-4 col-md-2">
             <img src="images/fast-food.svg" alt="Eating">
-            <h5 class="mt-2">吃東西</h5>
+            <h5 class="mt-3">吃東西</h5>
           </div>
 
-          <!-- Steam -->
+          <!-- Playstation -->
           <div class="col-4 col-md-2">
             <img src="images/playstation.svg" alt="playstation">
-            <h5 class="mt-2">玩PS4</h5>
+            <h5 class="mt-3">玩PS4</h5>
           </div>
 
-          <!-- MMORPG -->
+          <!-- Workout -->
           <div class="col-4 col-md-2">
             <img src="images/dumbbell-with-weights-outline.svg" alt="workout">
-            <h5 class="mt-2">健身</h5>
+            <h5 class="mt-3">健身</h5>
           </div>
 
-          <!-- Learning -->
+          <!-- Study -->
           <div class="col-4 col-md-2">
-            <img src="images/learning.svg" alt="learning new things">
-            <h5 class="mt-2">學習新事物</h5>
+            <img src="images/study.svg" alt="study">
+            <h5 class="mt-3">學習</h5>
           </div>
 
           <!-- Reading Comics -->
           <div class="col-4 col-md-2">
             <img src="images/comic-book.svg" alt="reading comics">
-            <h5 class="mt-2">看漫畫</h5>
+            <h5 class="mt-3">看漫畫</h5>
           </div>
 
           <!-- Coding -->
           <div class="col-4 col-md-2">
-            <img src="images/coding.svg" alt="coding">
-            <h5 class="mt-2">寫程式</h5>
+            <img src="images/programing.svg" alt="coding">
+            <h5 class="mt-3">寫程式</h5>
           </div>
         </div>
-<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-      </div>
+		
+		<div class="mt-5">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      
+	  </div>
     </section>
 
     <!-- Footer -->
@@ -353,8 +374,8 @@
     </footer>
 
     <!-- Scripts for Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

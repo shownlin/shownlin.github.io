@@ -19,6 +19,10 @@ body {
   }
 }
 
+.navbar {
+  background-color: #600030;
+}
+
 header {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
@@ -48,23 +52,23 @@ section {
 }
 
 #researches {
-  background-color: #D7D7D7;
+  background-color: #F6EEEE;
 }
 
 #publications {
-  background-color: #ECECEC;
+  background-color: #EFF5F5;
 }
 
 #projects {
-  background-color: #ECECEC;
+  background-color: #F6EEEE;
 }
 
 #skills {
-  background-color: #D7D7D7;
+  background-color: #EFF5F5;
 }
 
 #interests {
-  background-color: #ECECEC;
+  background-color: #F6EEEE;
 }
 
 #ibeacon-logo {
