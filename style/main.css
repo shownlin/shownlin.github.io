@@ -12,7 +12,7 @@
   url('fonts/SentyPea.woff2') format('woff2'),
   url('fonts/SentyPea.woff') format('woff'),
   url('fonts/SentyPea.ttf') format('ttf'),
-  url('fonts/SentyPea.svg') format('svg');/*Not for IE*/
+  url('fonts/SentyPea.svg#SentyPea_S') format('svg');/*Not for IE*/
 }
 
 *{
