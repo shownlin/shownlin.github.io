@@ -1,5 +1,19 @@
 ﻿@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@font-face{
+  font-family:'SentyPea_S';
+  font-weight:normal;
+  src:url('fonts/SentyPea.eot?')format('eot')/*IE*/,
+}
+@font-face{
+  font-family:'SentyPea_S';
+  font-weight:normal;
+  src:url(//:) format("no404"),
+  url('fonts/SentyPea.woff2') format('woff2'),
+  url('fonts/SentyPea.woff') format('woff'),
+  url('fonts/SentyPea.ttf') format('ttf'),
+  url('fonts/SentyPea.svg') format('svg');/*Not for IE*/
+}
 
 *{
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
@@ -123,14 +137,7 @@ section {
   font-family: 'Great Vibes', cursive;
 }
 
-@font-face{
-  src: url('SentyPea_S.woff2') format('woff2'),
-       url('SentyPea_S.woff') format('woff'),
-       url("fonts/SentyPea_S.svg#SentyPea_S'') format("svg"),
-       url('SentyPea_S.ttf') format('truetype');
-}
-
 .motto_zh {
   font-size: 2rem;
-  font-family: SentyPea_S;
+  font-family: 'SentyPea_S';
 }
