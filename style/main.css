@@ -123,12 +123,15 @@ section {
   font-family: 'Great Vibes', cursive;
 }
 
+@font-face{
+  src: url("fonts/SentyPea_S.eot");
+  src: url("fonts/SentyPea_S.eot?#iefix") format("embedded-opentype"), 
+       url("fonts/SentyPea_S.woff") format("woff"),
+       url("fonts/SentyPea_S.ttf") format("truetype"),
+       url("fonts/SentyPea_S.svg#SentyPea_S") format("svg");
+}
+
 .motto_zh {
   font-size: 2rem;
   font-family: SentyPea_S;
-  src: url("fonts/SentyPea_S.eot");
-  src: url("fonts/SentyPea_S.eot?#iefix") format("embedded-opentype"), 
-       url("onts/SentyPea_S.woff") format("woff"),
-       url("fonts/SentyPea_S.ttf") format("truetype"),
-       url("fonts/SentyPea_S.svg#SentyPea_S") format("svg");
 }
