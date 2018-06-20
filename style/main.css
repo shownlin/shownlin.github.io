@@ -124,11 +124,9 @@ section {
 }
 
 @font-face{
-  src: url("fonts/SentyPea_S.eot");
-  src: url("fonts/SentyPea_S.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/SentyPea_S.woff") format("woff"),
-       url("fonts/SentyPea_S.ttf") format("truetype"),
-       url("fonts/SentyPea_S.svg#SentyPea_S") format("svg");
+  src: url('SentyPea.woff2') format('woff2'),
+       url('SentyPea.woff') format('woff'),
+       url('SentyPea.ttf') format('truetype');
 }
 
 .motto_zh {
