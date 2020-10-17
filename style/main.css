@@ -86,30 +86,30 @@ section {
   background-color: #F6EEEE;
 }
 
-#ibeacon-logo {
-  max-width: 7rem;
+#pylmd-logo {
+  max-width: 25rem;
 }
 
-#ibeacon-name {
+#pylmd-name {
   font-size: 2rem;
   color: #0066FF;
 }
 
-#ibeacon-name strong {
+#pylmd-name strong {
   color: #0044BB;
 }
 
-#OpenISDM-name {
+#mrp-name {
   font-size: 2rem;
   color: #FF3333;
 }
 
-#OpenISDM-name strong {
+#mrp-name strong {
   color: #CC0000;
 }
 
-#OpenISDM-logo {
-  max-width: 15rem;
+#mrp-logo {
+  max-width: 25rem;
 }
 
 #interests img {
