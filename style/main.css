@@ -53,6 +53,10 @@ header {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+#head-img {
+  width: 302px;
+}
+
 .paper {
   max-width: 640px;
   margin: auto;
